@@ -7,8 +7,6 @@ import  GridFsStorage  from "multer-gridfs-storage";
 
 import dotenv from "dotenv";
 dotenv.config();
-const username = process.env.DB.USERNAME;
-const password = process.env.DB.PASSWORD;
 
 const storage = new GridFsStorage({
   
